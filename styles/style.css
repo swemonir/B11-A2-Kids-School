@@ -130,12 +130,13 @@ nav ul a{
   margin-top: 60px;
   text-align: center;
 }
+.classes{
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+}
 .cards{
   display: flex;
   padding: 80px 140px;
-  background-image: url(../assets/bg.png);
-  background-repeat: no-repeat;
-
 }
 .card{
   padding: 52px 40px;
@@ -178,6 +179,115 @@ nav ul a{
   border: 0.94px solid rgba(242, 232, 255, 1);
   background-image: linear-gradient(rgba(238, 225, 255, 1), #ffffff);
 }
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow img{
+  width: 60px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
 
 
 
+
+
+
+/* section-our-story */
+#section-our-story{
+  background-image: linear-gradient(#ffffff, rgba(249, 222, 173, 1));
+}
+.all-card{
+  display: flex;
+  padding: 80px 140px;
+}
+
+.first-card{
+  max-width: 540px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-right: 18px;
+}
+.first-card img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.date-button-first{
+  padding: 14px 18px;
+  background-color: #3CD8E8;
+  border-radius: 24px;
+  border: none;
+  position: relative;
+  margin-left: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 174px;
+  text-align: center;
+  margin-top: -30px;
+  
+}
+.card-content-big{
+  padding: 36px 40px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.card-description{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.fourth-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.card-two{
+  max-width: 290px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.card-two img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.card-content-small{
+  padding: 24px 36px; 
+}
+.card-title-small{
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+.date-button-two{
+  padding: 9px 18px;
+  background-color: #95B226;
+  border-radius: 24px;
+  border: none;
+  position: relative;
+  margin-left: 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 160px;
+  text-align: center;
+  margin-top: -24px;
+}
+
+.date-button-three{
+  padding: 9px 18px;
+  background-color: #5D58F0;
+  border-radius: 24px;
+  border: none;
+  position: relative;
+  margin-left: 36px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 160px;
+  text-align: center;
+  margin-top: -24px;
+}
