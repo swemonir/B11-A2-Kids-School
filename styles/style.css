@@ -198,10 +198,13 @@ nav ul a{
 /* section-our-story */
 #section-our-story{
   background-image: linear-gradient(#ffffff, rgba(249, 222, 173, 1));
+  padding: 80px 140px;
 }
+
 .all-card{
   display: flex;
-  padding: 80px 140px;
+  justify-content: center;
+  
 }
 
 .first-card{
@@ -500,6 +503,7 @@ footer{
 }
 .footer{
   flex-direction: column;
+  justify-content: center;
 
 }
 .footer-icon{
@@ -517,11 +521,14 @@ footer{
   margin-right: 20px;
 }
 .about-title, .touch-part {
+  margin-top: 32px;
   font-size: 1.25rem;
   font-weight: 700;
   margin-right: 20px;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 
 
