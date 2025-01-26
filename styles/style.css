@@ -95,6 +95,7 @@ nav ul a{
 }
 .hero-sec-content{
   max-width: 640px;
+  justify-content: center;
 }
 .hero-headline{
   font-size: 3.5rem;
@@ -104,8 +105,10 @@ nav ul a{
   font-size: 1.25rem;
   font-weight: 400;
   margin-top: 24px;
+  
 }
 .secondary-btn{
+  
   padding: 10px 47px;
   border-radius: 12px;
   border: none;
@@ -198,12 +201,13 @@ nav ul a{
 /* section-our-story */
 #section-our-story{
   background-image: linear-gradient(#ffffff, rgba(249, 222, 173, 1));
-  padding: 80px 140px;
+  
 }
 
 .all-card{
   display: flex;
   justify-content: center;
+  padding: 80px 140px;
   
 }
 
@@ -300,6 +304,7 @@ nav ul a{
   justify-content: center;
   /* margin-bottom: 60px; */
   padding-bottom: 60px;
+ 
 }
 
 
@@ -389,7 +394,6 @@ display: none;
   .hero-section{
     flex-direction: column-reverse;
     padding: 28px 26px;
-    align-items: center;
     justify-content: center;
   }
   
@@ -399,6 +403,7 @@ display: none;
   }
   .hero-sec-content{
     max-width: 357px;
+    
   }
   .hero-headline{
     font-size: 2rem;
@@ -411,7 +416,7 @@ display: none;
     text-align: center;
   }
   #black-btn{
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
 
 /* section-2 */
@@ -491,9 +496,10 @@ display: none;
   display: inline;
   }
   .secondary-btn{
-    padding: 10px 37px;
-    font-size: 1rem;
+    padding: 8px 20px;
+    font-size: .88rem;
     font-weight: 600;
+    max-width: 134px;
   }
   
 
