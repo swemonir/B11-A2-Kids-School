@@ -298,6 +298,14 @@ nav ul a{
   /* margin-bottom: 60px; */
   padding-bottom: 60px;
 }
+
+
+
+
+
+
+
+
 footer{
   /* height: 520px; */
   background-color: #01ACFD;
@@ -344,6 +352,14 @@ footer{
   display: flex;
   margin-right: 30px;
 } */
+
+#card-tow-ex{
+display: none;
+}
+#card-tow-ext{
+display: none;
+}
+
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -395,8 +411,6 @@ footer{
     margin-left: 80px;
   }
 
-
-
 /* section-2 */
 .head-title{
   font-size: 1.6rem;
@@ -422,11 +436,92 @@ footer{
   display: none;
 }
 .all-card{
-  padding: 16px;
+  padding: 16px 28px;
 }
 .fourth-card{
-  grid-template-columns: repeat(1, 1fr);
+  gap: 11px;
 }
+.card-two{
+  max-width: 173px;
+  border-radius: 9px;
+}
+.card-two img{
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  max-width: 173px;
+}
+.card-content-small{
+  padding: 16px 22px; 
+}
+.card-title-small{
+  font-size: .55rem;
+  line-height: 17px;
+}
+.date-button-two{
+  padding: 5px 11px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  margin-left: 22px;
+  font-size: .55rem;
+  width: 103px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.date-button-three{
+  padding: 5px 11px;
+  border-radius: 12px;
+  border: none;
+  position: relative;
+  margin-left: 22px;
+  font-size: .55rem;
+  width: 103px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+#card-tow-ex{
+  display: inline;
+  }
+  #card-tow-ext{
+  display: inline;
+  }
+  .secondary-btn{
+    padding: 10px 37px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+
+/* footer section */
+footer{
+  padding: 65px 20px;
+}
+.footer{
+  flex-direction: column;
+
+}
+.footer-icon{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.logo-footer{
+  font-size: 2rem;
+}
+.footer-p{
+  max-width: 357px;
+  margin-top: 36px;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+.about-title, .touch-part {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
 
 
 
