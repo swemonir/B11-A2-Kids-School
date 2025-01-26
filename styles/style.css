@@ -140,6 +140,7 @@ nav ul a{
 .cards{
   display: flex;
   padding: 80px 140px;
+  justify-content: center;
 }
 .card{
   padding: 52px 40px;
@@ -321,6 +322,7 @@ footer{
 }
 .footer{
   display: flex;
+  justify-content: center;
 
 }
 .footer-icon{
@@ -393,8 +395,9 @@ display: none;
 
   .hero-section{
     flex-direction: column-reverse;
-    padding: 28px 26px;
     justify-content: center;
+    padding: 28px 26px;
+    
   }
   
   .hero-img{
@@ -402,7 +405,8 @@ display: none;
     height: 413px;
   }
   .hero-sec-content{
-    max-width: 357px;
+    /* max-width: 357px; */
+    justify-content: center;
     
   }
   .hero-headline{
@@ -416,7 +420,8 @@ display: none;
     text-align: center;
   }
   #black-btn{
-    /* margin-left: 80px; */
+    margin: 18px 120px;
+    
   }
 
 /* section-2 */
@@ -543,18 +548,116 @@ body{
 }
 
 /* minimum responsive media query */
-/* @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams{
-  flex-direction: column;
-  margin: auto 20px;
+
+ @media screen and (min-width: 576px) and (max-width: 992px) { 
+  .navber {
+    padding: 16px 24px;
+    border-bottom: .5px solid #FEA301;
+  }
+  nav ul li{
+    margin-right: 24px;
+    font-size: 1.25rem;  
+  }
+  .logo-name{
+    font-size: 1.5rem;
+  }
+  
+  .btn-primary{
+    font-size: 1rem;
+    padding: 10px 36px;
+  }
+  .navber img{
+    height: 46px;
+    width: 46px;
     
   }
-  .sponsors-company .facts-container{ 
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+
+  .hero-section{
+    padding: 28px 24px;
+    
   }
-  #experience-batch{
+  
+  .hero-img{
+    width: 336.58px;
+    height: 413px;
+  }
+  .hero-sec-content{
+    max-width: 500px;
+    
+  }
+  .hero-headline{
+    font-size: 2.5rem;
     margin-top: 20px;
-    margin-left: 20px;
   }
-} */
+  .hero-bodytext{
+    font-size: 1rem;
+    margin-top: 18px;
+    max-width: 400px;
+    margin-right: 36px;
+
+  }
+  
+
+/* section-2 */
+.head-title{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 60px;
+  text-align: center;
+}
+.cards{
+  padding: 20px 24px;
+  
+}
+#card-1, #card-2{
+  margin-bottom: 12px;
+  margin-right: 16;
+}
+#card-3{
+  display: none;
+}
+
+/* section-3 */
+.first-card{
+  display: none;
+}
+.all-card{
+  padding: 16px 24px;
+}
+.fourth-card{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+#card-tow-ex{
+  display: inline;
+  }
+  #card-tow-ext{
+  display: inline;
+  }
+  
+  
+
+/* footer section */
+footer{
+  padding: 65px 30px;
+}
+
+.footer-p{
+  max-width: 350px;
+  margin-top: 36px;
+  font-size: 1rem;
+  margin-right: 50px;
+}
+
+.about-title, .touch-part {
+  font-size: 1rem;
+  margin-right: 100px;
+}
+body{
+  overflow-x: hidden;
+}
+
+
+}
+
