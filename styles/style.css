@@ -291,3 +291,162 @@ nav ul a{
   text-align: center;
   margin-top: -24px;
 }
+
+.view-all-btn{
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 60px; */
+  padding-bottom: 60px;
+}
+footer{
+  /* height: 520px; */
+  background-color: #01ACFD;
+  padding: 120px 140px;
+}
+.footer{
+  display: flex;
+
+}
+.footer-icon{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.logo-footer{
+  font-size: 2rem;
+  font-weight: 700; 
+  margin-left: 12px; 
+}
+.footer-p{
+  max-width: 400px;
+  margin-top: 36px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-right: 172px;
+}
+.about-title, .touch-part {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  margin-right: 143px;
+}
+.item{
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  list-style: none;
+
+}
+.hide{
+  display: none;
+}
+/* .icons{
+  display: flex;
+  margin-right: 30px;
+} */
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .navber {
+    padding: 12px 16px;
+    border-bottom: .5px solid #FEA301;
+  }
+  .nav-item{
+    
+  }
+  nav ul li{
+    margin-right: 16px;
+    font-size: 1rem;  
+  }
+  .logo-name, .btn-primary{
+    display: none;
+  }
+  .navber img{
+    height: 46px;
+    width: 46px;
+    margin-right: 20px;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 28px 26px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-img{
+    width: 336.58px;
+    height: 413px;
+  }
+  .hero-sec-content{
+    max-width: 357px;
+  }
+  .hero-headline{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .hero-bodytext{
+    font-size: .88rem;
+    margin-top: 18px;
+    text-align: center;
+  }
+  #black-btn{
+    margin-left: 80px;
+  }
+
+
+
+/* section-2 */
+.head-title{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 60px;
+  text-align: center;
+}
+.cards{
+  flex-direction: column;
+  padding: 20px 16px;
+  
+}
+#card-1, #card-2, #card-3{
+  margin-bottom: 12px;
+  margin-right: 0;
+}
+.arrow{
+  display: none;
+}
+
+/* section-3 */
+.first-card{
+  display: none;
+}
+.all-card{
+  padding: 16px;
+}
+.fourth-card{
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+
+
+}
+
+/* minimum responsive media query */
+/* @media screen and (min-width: 576px) and (max-width: 992px) {
+  .teams{
+  flex-direction: column;
+  margin: auto 20px;
+    
+  }
+  .sponsors-company .facts-container{ 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  #experience-batch{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+} */
